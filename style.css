@@ -12,6 +12,7 @@ body {
   color: #61bcc4;
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 header {
@@ -26,17 +27,18 @@ h1 {
   font-size: 2.3em;
   font-family: "Luckiest Guy", cursive;
 }
-ul {
+.container {
+  flex-wrap: wrap;
   display: flex;
   gap: 12px;
   margin-right: 7%;
 }
-li {
+
+.menu {
   list-style: none;
   color: #61bcc4;
   cursor: pointer;
   font-size: 1.3em;
-
   padding: 7px;
   opacity: 0.8;
 }
@@ -103,3 +105,31 @@ footer {
   padding: 10px;
   color: #61bcc4;
 }
+
+@media screen and (max-width: 825px) {
+  header {
+    flex-direction: column;
+    font-size: 13px;
+    text-align: center;
+  }
+  menu {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-top: 20px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cadastro {
+    width: 50%;
+  }
+  #imagem {
+    display: none;
+  }
+}
+
