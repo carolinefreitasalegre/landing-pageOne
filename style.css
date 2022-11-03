@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #283340;
+  color: #61bcc4;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #61bcc4;
+}
+h1 {
+  margin-left: 55px;
+  font-size: 2.3em;
+  font-family: "Luckiest Guy", cursive;
+}
+ul {
+  display: flex;
+  gap: 12px;
+  margin-right: 7%;
+}
+li {
+  list-style: none;
+  color: #61bcc4;
+  cursor: pointer;
+  font-size: 1.3em;
+
+  padding: 7px;
+  opacity: 0.8;
+}
+li:hover {
+  opacity: 1;
+}
+#quest {
+  border: 2px solid #61bcc4;
+  border-radius: 10px;
+}
+#quest:hover {
+  background-color: #61bcc4;
+  color: white;
+}
+main {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+#cadastro {
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  background-color: #61bcc4;
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  margin-left: 70px;
+}
+input {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#text {
+  border-radius: 10px;
+  height: 160px;
+  margin-top: 10px;
+  color: #283340;
+}
+#button {
+  background-color: #283340;
+  color: #61bcc4;
+  opacity: 0.8;
+}
+#button:hover {
+  opacity: 1;
+}
+
+img {
+  margin-right: 70px;
+  width: 83%;
+}
+footer {
+  border-top: 2px solid #61bcc4;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  color: #61bcc4;
+}
