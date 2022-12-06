@@ -128,7 +128,7 @@ footer {
   #cadastro {
     width: 50%;
   }
-  #imagem {
+  img {
     display: none;
   }
 }
@@ -142,7 +142,10 @@ footer {
     width: 70%;
     margin: auto;
   }
-  #imagem {
+  img {
     display: none;
+  }
+  header a{
+    font-size: 1em;
   }
 }
