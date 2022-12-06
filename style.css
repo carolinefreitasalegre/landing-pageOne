@@ -142,4 +142,7 @@ footer {
     width: 70%;
     margin: auto;
   }
+  #imagem {
+    display: none;
+  }
 }
