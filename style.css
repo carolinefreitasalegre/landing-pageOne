@@ -11,8 +11,8 @@ body {
   background-color: #283340;
   color: #61bcc4;
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
-  min-width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 header {
@@ -30,7 +30,7 @@ h1 {
 .container {
   flex-wrap: wrap;
   display: flex;
-  gap: 12px;
+  gap: 5px;
   margin-right: 7%;
 }
 
@@ -132,4 +132,14 @@ footer {
     display: none;
   }
 }
-
+@media screen and (max-width: 567px){
+  .container{
+    gap: none;
+    font-size: 1em;
+    margin: auto;
+  }
+  #cadastro{
+    width: 70%;
+    margin: auto;
+  }
+}
